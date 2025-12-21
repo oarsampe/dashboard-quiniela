@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+/* Un poco de estilo básico para que la tabla se vea ordenada */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Quita los espacios entre bordes */
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    /* Borde gris suave */
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    /* Cabecera verde */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    /* Filas alternas grises */
+}

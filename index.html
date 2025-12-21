@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Quiniela</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Resultados de Quiniela</h1>
+    <p>Listado de los últimos sorteos cargados.</p>
+
+    <table id="tabla-quiniela">
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Provincia</th>
+                <th>Modalidad</th>
+                <th>Número</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpo-tabla">
+            <tr>
+                <td colspan="4">Cargando datos...</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
