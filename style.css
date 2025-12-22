@@ -29,3 +29,37 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
     /* Filas alternas grises */
 }
+
+/* Estilos para el filtro */
+.filtros {
+    background-color: #e8f5e9;
+    /* Un verde muy clarito */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    /* Espacio entre elementos */
+    align-items: center;
+    flex-wrap: wrap;
+    /* Para que se adapte a celulares */
+}
+
+input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
