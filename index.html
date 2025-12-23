@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Quiniela</title>
-
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
     <h1>🍀 Quiniela de Salta 🍀</h1>
-    <p>Listado de los últimos sorteos cargados.</p>
+    
+    <div class="filtros">
+        <label>Desde: <input type="date" id="fecha-inicio"></label>
+        <label>Hasta: <input type="date" id="fecha-fin"></label>
+        <button onclick="aplicarFiltro()">🔍 Buscar</button>
+        <button onclick="limpiarFiltro()">❌ Limpiar</button>
+    </div>
 
     <table id="tabla-quiniela">
         <thead>
@@ -33,7 +35,5 @@
     </table>
 
     <script src="main.js"></script>
-
 </body>
-
 </html>
