@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <h1>🍀 Quiniela de Salta 🍀</h1>
-    
+
     <div class="filtros">
         <label>Desde: <input type="date" id="fecha-inicio"></label>
         <label>Hasta: <input type="date" id="fecha-fin"></label>
@@ -21,6 +23,7 @@
     <table id="tabla-quiniela">
         <thead>
             <tr>
+                <th>Pos.</th>
                 <th>Fecha</th>
                 <th>Provincia</th>
                 <th>Modalidad</th>
@@ -36,4 +39,5 @@
 
     <script src="main.js"></script>
 </body>
+
 </html>
